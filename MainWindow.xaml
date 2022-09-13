@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TemperatureConverterWpf"
         mc:Ignorable="d"
-        Title="Temperature Converter!" Height="300" Width="400" MinWidth="380" MinHeight="280" WindowStartupLocation="CenterScreen" Icon="/kindpng_1441825.png">
+        Title="Temperature Converter!" Height="300" Width="400" MinWidth="380" MinHeight="280" WindowStartupLocation="CenterScreen" Icon="/IceCream.png">
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -41,9 +41,9 @@
                 <ColumnDefinition Width="30"/>
             </Grid.ColumnDefinitions>
             
-            <Label x:Name="labelOutput" HorizontalAlignment="Stretch" BorderBrush="#FF3A0938" BorderThickness="2" Margin="1" TabIndex="4" ToolTip="Displays the converted temperature" HorizontalContentAlignment="Center" />
-            <Button x:Name="buttonCopy" ToolTip="Click here to copy the output" Margin="2" TabIndex="5" Click="buttonCopy_Click" Grid.Column="1">
-                <Image Source="/kindpng_1441825.png" />
+            <Label x:Name="labelOutput" HorizontalAlignment="Stretch" BorderBrush="#FF3A0938" BorderThickness="2" Margin="1" ToolTip="Displays the converted temperature" HorizontalContentAlignment="Center" />
+            <Button x:Name="buttonCopy" ToolTip="Click here to copy the output" Margin="2" TabIndex="4" Click="buttonCopy_Click" Grid.Column="1">
+                <Image Source="/IceCream.png" />
             </Button>
         </Grid>
 

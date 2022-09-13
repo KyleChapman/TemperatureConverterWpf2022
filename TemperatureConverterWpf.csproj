@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="kindpng_1441825.png" />
+    <None Remove="IceCream.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="kindpng_1441825.png" />
+    <Resource Include="IceCream.png" />
   </ItemGroup>
 
 </Project>
